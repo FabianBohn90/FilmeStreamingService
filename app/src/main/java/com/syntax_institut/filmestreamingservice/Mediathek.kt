@@ -70,6 +70,7 @@ class Mediathek {
 
         // Mische die Elemente in der Liste
         // todo Schreibe hier deinen Code
+        movieDatabase.shuffle()
 
         // Liefere alle Filme zurück
         return movieDatabase
@@ -82,6 +83,7 @@ class Mediathek {
 
         // sortiert die Liste alphabetisch
         // todo Schreibe hier deinen Code
+        list.sort()
 
         // liefert die geänderte Liste zurück
         return list
@@ -95,9 +97,6 @@ class Mediathek {
         // sortiert nach länge des Wortes
         // todo Schreibe hier deinen Code
         list.sortBy { it.length }
-
-
-
 
         // liefert die geänderte Liste zurück
         return list
