@@ -94,7 +94,6 @@ class Mediathek {
 
         // sortiert nach länge des Wortes
         // todo Schreibe hier deinen Code
-
         list.sortBy { it.length }
 
 
